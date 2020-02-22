@@ -6,6 +6,7 @@
 -- Then, press any key on that keyboard to assign logical name ('MACROS') to macro keyboard
 clear() --clear the console from last run
 local keyboardIdentifier = '24AB4A02'
+lmc_minimize()
 
 
 
