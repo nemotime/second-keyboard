@@ -432,6 +432,8 @@ else if(key = "F5"){ 		;what it do
 	sleep, 1
 	send, {RShift up}{Numpad6 up}
 }
+
+
 Return ;from luamacros F24
 ;THE BLOCK OF CODE ABOVE is the original, simple Luamacros-dependant script.
 
