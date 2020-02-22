@@ -34,7 +34,7 @@ lmc.minimizeToTray = true
 --Start Script
 sendToAHK = function (key)
       --print('It was assigned string:    ' .. key)
-      local file = io.open("C:\\AHK\\2nd-keyboard\\LUAMACROS\\keypressed.txt", "w") -- writing this string to a text file on disk is probably NOT the best method. Feel free to program something better!
+      local file = io.open("D:\\Documents\\second-keyboard\\AHK\\2nd-keyboard\\LUAMACROS\\keypressed.txt", "w") -- writing this string to a text file on disk is probably NOT the best method. Feel free to program something better!
       --If you didn't put your AutoHotKey scripts into C:/AHK, Make sure to substitute the path that leads to your own "keypressed.txt" file, using the double backslashes.
 	  --print("we are inside the text file")
       file:write(key)
