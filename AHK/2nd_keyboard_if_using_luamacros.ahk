@@ -36,7 +36,8 @@ Menu, Tray, Icon, shell32.dll, 283 ; this changes the tray icon to a little keyb
 #IfWinActive ;---- This will allow for everything below this line to work in ANY application.
 
 ~F24::
-FileRead, key, D:\Documents\second-keyboard\AHK\2nd-keyboard\LUAMACROS\keypressed.txt
+;FileRead, key, D:\Documents\second-keyboard\AHK\2nd-keyboard\LUAMACROS\keypressed.txt
+FileRead, key, C:\AHK\2nd-keyboard\LUAMACROS\keypressed.txt
 tippy(key) ;<--- this function will just launch a quick tooltip that shows you what key you pressed. OPTIONAL.
 
 if (key = "y"){ 		; voice enable toggle
