@@ -36,7 +36,7 @@ Menu, Tray, Icon, shell32.dll, 283 ; this changes the tray icon to a little keyb
 #IfWinActive ;---- This will allow for everything below this line to work in ANY application.
 
 ~F24::
-FileRead, key, C:\AHK\2nd-keyboard\LUAMACROS\keypressed.txt
+FileRead, key, D:\Documents\second-keyboard\AHK\2nd-keyboard\LUAMACROS\keypressed.txt
 tippy(key) ;<--- this function will just launch a quick tooltip that shows you what key you pressed. OPTIONAL.
 
 if (key = "y"){ 		; voice enable toggle
@@ -55,7 +55,7 @@ else if(key = "space"){	;deafen discord
 	sleep, 1
 	send, {NumpadIns up}
 }
-else if(key = "u"){ 		;voice enable toggle
+else if(key = "u"){ 		;what it do
 	send, {RShift down} 
 	sleep, 1
 	send, {Numpad0 down}
@@ -64,7 +64,7 @@ else if(key = "u"){ 		;voice enable toggle
 	sleep, 1
 	send, {RShift up}{Numpad0 up}
 }
-else if(key = "i"){ 		;voice enable toggle
+else if(key = "i"){ 		;what it do
 	send, {RShift down} 
 	sleep, 1
 	send, {Numpad0 down}
@@ -73,7 +73,7 @@ else if(key = "i"){ 		;voice enable toggle
 	sleep, 1
 	send, {RShift up}{Numpad0 up}
 }
-else if(key = "o"){ 		;voice enable toggle
+else if(key = "o"){ 		;what it do
 	send, {RShift down} 
 	sleep, 1
 	send, {Numpad0 down}
@@ -82,7 +82,7 @@ else if(key = "o"){ 		;voice enable toggle
 	sleep, 1
 	send, {RShift up}{Numpad0 up}
 }
-else if(key = "p"){ 		;voice enable toggle
+else if(key = "p"){ 		;what it do
 	send, {RShift down} 
 	sleep, 1
 	send, {Numpad0 down}
@@ -92,6 +92,346 @@ else if(key = "p"){ 		;voice enable toggle
 	send, {RShift up}{Numpad0 up}
 }
 
+
+
+else if(key = "F10"){ 		;what it do
+	send, {RShift down} 
+	sleep, 1
+	send, {Numpad1 down}
+	sleep, 1
+	send, {Numpad0}
+	sleep, 1
+	send, {RShift up}{Numpad1 up}
+}
+else if(key = "F11"){ 		;what it do
+	send, {RShift down} 
+	sleep, 1
+	send, {Numpad1 down}
+	sleep, 1
+	send, {Numpad2}
+	sleep, 1
+	send, {RShift up}{Numpad1 up}
+}
+else if(key = "n"){ 		;what it do
+	send, {RShift down} 
+	sleep, 1
+	send, {Numpad1 down}
+	sleep, 1
+	send, {Numpad3}
+	sleep, 1
+	send, {RShift up}{Numpad1 up}
+}
+else if(key = "m"){ 		;what it do
+	send, {RShift down} 
+	sleep, 1
+	send, {Numpad1 down}
+	sleep, 1
+	send, {Numpad4}
+	sleep, 1
+	send, {RShift up}{Numpad1 up}
+}
+
+
+else if(key = "F9"){ 		;what it do
+	send, {RShift down} 
+	sleep, 1
+	send, {Numpad2 down}
+	sleep, 120
+	send, {Numpad0}
+	sleep, 1
+	send, {RShift up}{Numpad2 up}
+}
+else if(key = "z"){ 		;what it do
+	send, {RShift down} 
+	sleep, 1
+	send, {Numpad2 down}
+	sleep, 1
+	send, {Numpad1}
+	sleep, 1
+	send, {RShift up}{Numpad2 up}
+}
+else if(key = "x"){ 		;what it do
+	send, {RShift down} 
+	sleep, 1
+	send, {Numpad2 down}
+	sleep, 1
+	send, {Numpad3}
+	sleep, 1
+	send, {RShift up}{Numpad2 up}
+}
+else if(key = "c"){ 		;what it do
+	send, {RShift down} 
+	sleep, 1
+	send, {Numpad2 down}
+	sleep, 1
+	send, {Numpad4}
+	sleep, 1
+	send, {RShift up}{Numpad2 up}
+}
+else if(key = "v"){ 		;what it do
+	send, {RShift down} 
+	sleep, 1
+	send, {Numpad2 down}
+	sleep, 1
+	send, {Numpad5}
+	sleep, 1
+	send, {RShift up}{Numpad2 up}
+}
+else if(key = "b"){ 		;what it do
+	send, {RShift down} 
+	sleep, 1
+	send, {Numpad2 down}
+	sleep, 1
+	send, {Numpad6}
+	sleep, 1
+	send, {RShift up}{Numpad2 up}
+}
+
+
+
+else if(key = "F8"){ 		;what it do
+	send, {RShift down} 
+	sleep, 1
+	send, {Numpad3 down}
+	sleep, 1
+	send, {Numpad0}
+	sleep, 1
+	send, {RShift up}{Numpad3 up}
+}
+else if(key = "a"){ 		;what it do
+	send, {RShift down} 
+	sleep, 1
+	send, {Numpad3 down}
+	sleep, 1
+	send, {Numpad1}
+	sleep, 1
+	send, {RShift up}{Numpad3 up}
+}
+else if(key = "s"){ 		;what it do
+	send, {RShift down} 
+	sleep, 1
+	send, {Numpad3 down}
+	sleep, 1
+	send, {Numpad2}
+	sleep, 1
+	send, {RShift up}{Numpad3 up}
+}
+else if(key = "d"){ 		;what it do
+	send, {RShift down} 
+	sleep, 1
+	send, {Numpad3 down}
+	sleep, 1
+	send, {Numpad4}
+	sleep, 1
+	send, {RShift up}{Numpad3 up}
+}
+else if(key = "f"){ 		;what it do
+	send, {RShift down} 
+	sleep, 1
+	send, {Numpad3 down}
+	sleep, 1
+	send, {Numpad5}
+	sleep, 1
+	send, {RShift up}{Numpad3 up}
+}
+else if(key = "g"){ 		;what it do
+	send, {RShift down} 
+	sleep, 1
+	send, {Numpad3 down}
+	sleep, 1
+	send, {Numpad6}
+	sleep, 1
+	send, {RShift up}{Numpad3 up}
+}
+
+
+
+else if(key = "F7"){ 		;what it do
+	send, {RShift down} 
+	sleep, 1
+	send, {Numpad4 down}
+	sleep, 1
+	send, {Numpad0}
+	sleep, 1
+	send, {RShift up}{Numpad4 up}
+}
+else if(key = "q"){ 		;what it do
+	send, {RShift down} 
+	sleep, 1
+	send, {Numpad4 down}
+	sleep, 1
+	send, {Numpad1}
+	sleep, 1
+	send, {RShift up}{Numpad4 up}
+}
+else if(key = "w"){ 		;what it do
+	send, {RShift down} 
+	sleep, 1
+	send, {Numpad4 down}
+	sleep, 1
+	send, {Numpad2}
+	sleep, 1
+	send, {RShift up}{Numpad4 up}
+}
+else if(key = "e"){ 		;what it do
+	send, {RShift down} 
+	sleep, 1
+	send, {Numpad4 down}
+	sleep, 1
+	send, {Numpad3}
+	sleep, 1
+	send, {RShift up}{Numpad4 up}
+}
+else if(key = "r"){ 		;what it do
+	send, {RShift down} 
+	sleep, 1
+	send, {Numpad4 down}
+	sleep, 1
+	send, {Numpad5}
+	sleep, 1
+	send, {RShift up}{Numpad4 up}
+}
+else if(key = "t"){ 		;what it do
+	send, {RShift down} 
+	sleep, 1
+	send, {Numpad4 down}
+	sleep, 1
+	send, {Numpad6}
+	sleep, 1
+	send, {RShift up}{Numpad4 up}
+}
+
+
+
+
+else if(key = "F6"){ 		;what it do
+	send, {RShift down} 
+	sleep, 1
+	send, {Numpad5 down}
+	sleep, 1
+	send, {Numpad0}
+	sleep, 1
+	send, {RShift up}{Numpad5 up}
+}
+else if(key = "1"){ 		;what it do
+	send, {RShift down} 
+	sleep, 1
+	send, {Numpad5 down}
+	sleep, 1
+	send, {Numpad1}
+	sleep, 1
+	send, {RShift up}{Numpad5 up}
+}
+else if(key = "2"){ 		;what it do
+	send, {RShift down} 
+	sleep, 1
+	send, {Numpad5 down}
+	sleep, 1
+	send, {Numpad2}
+	sleep, 1
+	send, {RShift up}{Numpad5 up}
+}
+else if(key = "3"){ 		;what it do
+	send, {RShift down} 
+	sleep, 1
+	send, {Numpad5 down}
+	sleep, 1
+	send, {Numpad3}
+	sleep, 1
+	send, {RShift up}{Numpad5 up}
+}
+else if(key = "4"){ 		;what it do
+	send, {RShift down} 
+	sleep, 1
+	send, {Numpad5 down}
+	sleep, 1
+	send, {Numpad4}
+	sleep, 1
+	send, {RShift up}{Numpad5 up}
+}
+else if(key = "5"){ 		;what it do
+	send, {RShift down} 
+	sleep, 1
+	send, {Numpad5 down}
+	sleep, 1
+	send, {Numpad6}
+	sleep, 1
+	send, {RShift up}{Numpad5 up}
+}
+else if(key = "6"){ 		;what it do
+	send, {RShift down} 
+	sleep, 1
+	send, {Numpad5 down}
+	sleep, 1
+	send, {Numpad7}
+	sleep, 1
+	send, {RShift up}{Numpad5 up}
+}
+
+
+else if(key = "escape"){ 		;what it do
+	send, {RShift down} 
+	sleep, 1
+	send, {Numpad6 down}
+	sleep, 1
+	send, {Numpad0}
+	sleep, 1
+	send, {RShift up}{Numpad6 up}
+}
+else if(key = "F1"){ 		;what it do
+	send, {RShift down} 
+	sleep, 1
+	send, {Numpad6 down}
+	sleep, 1
+	send, {Numpad1}
+	sleep, 1
+	send, {RShift up}{Numpad6 up}
+}
+else if(key = "F2"){ 		;what it do
+	send, {RShift down} 
+	sleep, 1
+	send, {Numpad6 down}
+	sleep, 1
+	send, {Numpad2}
+	sleep, 1
+	send, {RShift up}{Numpad6 up}
+}
+else if(key = "F3"){ 		;what it do
+	send, {RShift down} 
+	sleep, 1
+	send, {Numpad6 down}
+	sleep, 1
+	send, {Numpad3}
+	sleep, 1
+	send, {RShift up}{Numpad6 up}
+}
+else if(key = "F4"){ 		;what it do
+	send, {RShift down} 
+	sleep, 1
+	send, {Numpad6 down}
+	sleep, 1
+	send, {Numpad4}
+	sleep, 1
+	send, {RShift up}{Numpad6 up}
+}
+else if(key = "F4"){ 		;what it do
+	send, {RShift down} 
+	sleep, 1
+	send, {Numpad6 down}
+	sleep, 1
+	send, {Numpad4}
+	sleep, 1
+	send, {RShift up}{Numpad6 up}
+}
+else if(key = "F5"){ 		;what it do
+	send, {RShift down} 
+	sleep, 1
+	send, {Numpad6 down}
+	sleep, 1
+	send, {Numpad5}
+	sleep, 1
+	send, {RShift up}{Numpad6 up}
+}
 Return ;from luamacros F24
 ;THE BLOCK OF CODE ABOVE is the original, simple Luamacros-dependant script.
 
